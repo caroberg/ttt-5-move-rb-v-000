@@ -12,5 +12,5 @@ end
 
 board = Array.new(9, " ")
 def move(board, index, token="X")
-  puts board[index] = token
+  board[index] = token
 end
